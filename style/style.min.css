@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+main .hero {
+  max-width: 1400px;
+  height: 388px;
+  background-image: url(/images/Banner.png);
+}
+main .title1 {
+  color: #212121;
+  font-family: "Inter";
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 150%;
+  margin-top: 56px;
+  margin-bottom: 40px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 330px;
+  gap: 0 16px;
+  overflow: auto;
+  margin-bottom: 40px;
+}
+.wrapper .card {
+  background-color: pink;
+  border-radius: 8px;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #E2E2E2;
+  background: #FFF;
+}
+.wrapper .card .main-header {
+  color: #212121;
+  text-align: center;
+  font-family: "Inter";
+}
+.wrapper .card strong {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  color: #4364F7;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 8px;
+  margin-bottom: 23px;
+}
+.wrapper .card .content-wrapper {
+  display: flex;
+  gap: 0 16px;
+  justify-content: center;
+}
+.wrapper .card .content-wrapper .secondary-header {
+  color: #828282;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 14px;
+}
+.wrapper .card .content-wrapper .price {
+  color: #212121;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 600;
+}
+
+section .box-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 259px);
+  grid-template-rows: 367px;
+  gap: 24px 16px;
+  overflow: auto;
+}
+section .box-wrapper .box {
+  border-radius: 8px;
+  border: 1px solid #E2E2E2;
+  background: #FFF;
+}
+section .box-wrapper .box .box-content {
+  padding: 16px;
+}
+section .box-wrapper .box .box-content a {
+  padding: 6px 8px;
+  color: #52057B;
+  font-family: "Inter";
+  font-size: 12px;
+  border-radius: 4px;
+  background: rgba(82, 5, 123, 0.1);
+  text-decoration: none;
+}
+section .box-wrapper .box .box-content .box-title {
+  width: 200px;
+  color: #212121;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+  margin-top: 8px;
+  margin-bottom: 14px;
+}
+section .box-wrapper .box .box-content .small-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .box-wrapper .box .box-content .small-wrapper .main-header {
+  color: #212121;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 600;
+}
+section .box-wrapper .box .box-content .small-wrapper strong {
+  display: flex;
+  align-items: center;
+  gap: 0 6px;
+}
+section .box-wrapper .box .box-content .second-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section .box-wrapper .box .box-content .second-wrapper .main-strong {
+  display: flex;
+  align-items: center;
+  gap: 0 4px;
+  color: #828282;
+  font-family: "Inter";
+  font-size: 14px;
+  margin-top: 14px;
+}
+
+.title2 {
+  color: #212121;
+  font-family: "Inter";
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 150%;
+  margin-bottom: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}/*# sourceMappingURL=style.min.css.map */
